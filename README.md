@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github link](https://github.com/borehelu/order-summary-component)
-- Live Site URL: [live link](https://your-live-site-url.com)
+- Live Site URL: [live link](https://borehelu.github.io/order-summary-component/)
 
 ## My process
 
