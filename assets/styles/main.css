@@ -1,0 +1,118 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+.btn, .card .card_content .secondary, .card .card_content .primary {
+  padding: 0.9rem;
+  border: none;
+  width: 100%;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  background-color: hsl(225deg, 100%, 94%);
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  max-width: 375px;
+  overflow: hidden;
+  box-shadow: 0 4px 30px -6px rgba(0, 0, 0, 0.3);
+}
+.card .card_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  padding: 2rem;
+}
+.card .card_content .card_title {
+  font-weight: 900;
+  color: hsl(223deg, 47%, 23%);
+}
+.card .card_content .card_text {
+  max-width: 30ch;
+  font-weight: 500;
+  color: hsl(224deg, 23%, 55%);
+  text-align: center;
+}
+.card .card_content .card_plan {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  background-color: hsl(225deg, 100%, 98%);
+  padding: 1.2rem;
+  border-radius: 1rem;
+  font-size: 14px;
+}
+.card .card_content .card_plan h2 {
+  color: hsl(223deg, 47%, 23%);
+  font-size: 1rem;
+  font-weight: 900;
+}
+.card .card_content .card_plan p {
+  color: hsl(224deg, 23%, 55%);
+}
+.card .card_content .card_plan a {
+  margin-left: auto;
+  color: hsl(245deg, 75%, 52%);
+  font-weight: 900;
+}
+.card .card_content .card_plan a:hover {
+  text-decoration: none;
+}
+.card .card_content .primary {
+  background-color: hsl(245deg, 75%, 52%);
+  color: #ffffff;
+  box-shadow: 0 10px 15px rgba(56, 41, 224, 0.3);
+}
+.card .card_content .primary:hover {
+  background-color: #5247c2;
+}
+.card .card_content .secondary {
+  background-color: transparent;
+  color: hsl(224deg, 23%, 55%);
+}
+.card .card_content .secondary:hover {
+  color: hsl(223deg, 47%, 23%);
+}/*# sourceMappingURL=main.css.map */
